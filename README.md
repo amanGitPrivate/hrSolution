@@ -4,7 +4,6 @@
 yarn install
 yarn start
 open http://localhost:3000
-you can also open https://amangitprivate.github.io/HrSolutionComplete/ for the solution
 ```
 
 ## Solution
@@ -16,3 +15,7 @@ you can also open https://amangitprivate.github.io/HrSolutionComplete/ for the s
 ## Updated Dependencies
 
 - updated react version to use react-test-renderer for test cases
+
+### View Demo
+
+https://amanGitPrivate.github.io/hrSolution

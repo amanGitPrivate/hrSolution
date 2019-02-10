@@ -2,7 +2,7 @@
   "name": "heaven-interview",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://amanGitPrivate.github.io/HrSolutionComplete",
+  "homepage": "http://amanGitPrivate.github.io/hrSolution",
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash": "^4.17.4",
