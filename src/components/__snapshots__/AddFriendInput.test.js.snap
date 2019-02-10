@@ -1,0 +1,48 @@
+exports[`test AddFriendInput renders correctly 1`] = `
+<div
+  className={undefined}>
+  <input
+    autoFocus={true}
+    className="form-control"
+    name="name"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Type the name of a friend"
+    type="text"
+    value="" />
+  <div
+    className="form-control radio">
+    <label
+      className="">
+      <input
+        checked={false}
+        name="gender"
+        onChange={[Function]}
+        type="radio"
+        value="male" />
+       
+      male
+    </label>
+    <label>
+      <input
+        checked={false}
+        name="gender"
+        onChange={[Function]}
+        type="radio"
+        value="female" />
+       
+      female
+       
+    </label>
+  </div>
+  <div
+    className={undefined}>
+    <button
+      className="btn btn-default"
+      disabled={true}
+      onClick={[Function]}>
+      Submit
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+exports[`test AddFriendPagination renders correctly 1`] = `
+<div
+  className="">
+  <button
+    className="btn btn-default"
+    disabled={undefined}
+    onClick={[Function]}>
+    <i
+      className="fa fa-caret-left" />
+  </button>
+  <label
+    className={undefined}>
+    1
+     of 
+    2
+  </label>
+  <button
+    className="btn btn-default"
+    disabled={undefined}
+    onClick={[Function]}>
+    <i
+      className="fa fa-caret-right" />
+  </button>
+</div>
+`;

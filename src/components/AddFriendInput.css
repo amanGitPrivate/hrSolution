@@ -1,0 +1,34 @@
+:local(.addFriendInput) {
+  border-radius: 0;
+  border-color: #ABAAAA;
+  border-left: 0;
+  border-right: 0;
+}
+
+
+:local(.addFriendInputBox),
+:local(.addFriendSubmitButton) {
+  border-radius: 0;
+  border-color: #ABAAAA;
+  border-left: 0;
+  border-right: 0;
+  display: inline-block;
+}
+
+:local(.addFriendSubmitButton) {
+  margin-left: 5px;
+  width: 50%;
+  margin-top: 5px;
+  vertical-align: top;
+  text-align: center;
+}
+
+
+:local(.addFriendForm) {
+  margin: 10px;
+}
+
+:local(.submitButton) {
+  text-align: center;
+}
+

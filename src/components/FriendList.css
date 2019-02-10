@@ -1,0 +1,22 @@
+:local(.friendList) {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+:local(.friendListContentWrapper) {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+
+:local(.friendListPagination) {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+:local(.noFriendsMessage) {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
