@@ -16,7 +16,7 @@ const AddFriendPagination = props => {
   return (
     <div className={classnames(styles.friendListPagination)}>
       <button
-        onClick={() => goToPrevPage()}
+        onClick={goToPrevPage}
         disabled={isFirstPage()}
         className="btn btn-default"
       >
@@ -26,7 +26,7 @@ const AddFriendPagination = props => {
         {pageNumber} of {Math.ceil(friends.length / itemsPerPage)}
       </label>
       <button
-        onClick={() => goToNextPage()}
+        onClick={goToNextPage}
         disabled={isLastPage()}
         className="btn btn-default"
       >
