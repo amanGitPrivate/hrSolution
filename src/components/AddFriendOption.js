@@ -16,9 +16,7 @@ const AddFriendOption = props => {
           name="gender"
           value={MALE}
           checked={gender === MALE ? true : false}
-          onChange={e => {
-            onChange(e);
-          }}
+          onChange={onChange}
         />{' '}
         {MALE}
       </label>
@@ -28,9 +26,7 @@ const AddFriendOption = props => {
           name="gender"
           value={FEMALE}
           checked={gender === FEMALE ? true : false}
-          onChange={e => {
-            onChange(e);
-          }}
+          onChange={onChange}
         />{' '}
         {FEMALE}{' '}
       </label>
