@@ -1,0 +1,13 @@
+exports[`test AddFriendInputBox renders correctly 1`] = `
+<div>
+  <input
+    autoFocus={true}
+    className="form-control"
+    name="name"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Type the name of a friend"
+    type="text"
+    value="Aman" />
+</div>
+`;

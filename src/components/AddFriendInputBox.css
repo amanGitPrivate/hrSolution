@@ -1,0 +1,16 @@
+:local(.addFriendInput) {
+    border-radius: 0;
+    border-color: #ABAAAA;
+    border-left: 0;
+    border-right: 0;
+  }
+  
+  
+  :local(.addFriendInputBox) {
+    border-radius: 0;
+    border-color: #ABAAAA;
+    border-left: 0;
+    border-right: 0;
+    display: inline-block;
+  }
+  

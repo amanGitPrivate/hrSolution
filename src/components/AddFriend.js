@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import styles from './AddFriendInput.css';
+import styles from './AddFriend.css';
 import AddFriendOption from './AddFriendOption';
+import AddFriendInputBox from './AddFriendInputBox';
 
 class AddFriendInput extends Component {
   constructor(props, context) {
@@ -71,15 +72,10 @@ class AddFriendInput extends Component {
     const { name, validation, gender } = this.state;
     return (
       <div className={styles.addFriendForm}>
-        <input
-          type="text"
-          autoFocus={true}
-          name="name"
-          className={classnames('form-control', styles.addFriendInputBox)}
-          placeholder="Type the name of a friend"
-          value={name}
+        <AddFriendInputBox
+          name={name}
           onChange={this.handleChange}
-          onKeyDown={this.triggerSubmitOnEnter}
+          triggerSubmitOnEnter={this.triggerSubmitOnEnter}
         />
         <AddFriendOption onChange={this.handleChange} gender={gender} />
         <div className={styles.submitButton}>

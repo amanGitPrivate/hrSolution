@@ -1,15 +1,17 @@
-exports[`test AddFriendInput renders correctly 1`] = `
+exports[`test AddFriend renders correctly 1`] = `
 <div
   className={undefined}>
-  <input
-    autoFocus={true}
-    className="form-control"
-    name="name"
-    onChange={[Function]}
-    onKeyDown={[Function]}
-    placeholder="Type the name of a friend"
-    type="text"
-    value="" />
+  <div>
+    <input
+      autoFocus={true}
+      className="form-control"
+      name="name"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Type the name of a friend"
+      type="text"
+      value="" />
+  </div>
   <div
     className="form-control radio">
     <label
